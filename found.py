@@ -75,7 +75,7 @@ while i == 2: #Iniciando validacao usando laco while.
 		origem = raw_input('Defina sua origem: ') #Variavel origem recebe uma nova entrada pelo usuario caso origem seja igual a destino.
 		destino = raw_input('Defina seu destino: ') #Variavel destino recebe uma nova entrada pelo usuario caso destino seja igual a origem.
 		i = 2		#Variavel i recebe valor 1 para concluir validacao.
-	elif origem or destido == error :
+	elif origem or destido == false : #Dando erro aqui
 		print "\n Origem e/ou destino invalido, digite uma sigla valida!\n"
 		print legenda
 		origem = raw_input('Defina sua origem: ') #Variavel origem recebe uma nova entrada pelo usuario caso origem seja igual a destino.
